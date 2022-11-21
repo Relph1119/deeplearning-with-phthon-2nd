@@ -9,7 +9,7 @@
 - Python版本：Windows Python 3.8.10
 - [CUDA安装包下载地址](链接：https://pan.baidu.com/s/1rlX8ErIYYY8F_rFdEe5IgA?pwd=iwa5)
 
-1. 安装CUDA
+2. 安装CUDA
 - 安装cuda_11.8.0_522.06_windows.exe
 - 解压cudnn-windows-x86_64-8.5.0.96_cuda11-archive.zip包，将bin、include、lib下的文件分别拷贝到`C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8`的各个目录下，其中`lib`的内容放到`lib\x64`目录下
 - 配置环境变量（PATH下面一共有5个NVIDIA的配置）
@@ -20,7 +20,7 @@ SET PATH=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\lib\x64;%PATH%
 SET PATH=C:\tools\cuda\bin;%PATH%
 ```
 
-2. 安装GPU版本的Tensorflow
+3. 安装GPU版本的Tensorflow
 
 - 安装tensorflow-gpu
 ```shell
@@ -34,12 +34,12 @@ import tensorflow as tf
 tf.config.list_physical_devices('GPU')
 ```
 
-3. 安装notebook
+4. 安装notebook
 ```shell
 pip install notebook jupyter_nbextensions_configurator
 ```
 
-4. 安装matplotlib
+5. 安装matplotlib
 ```shell
 pip install matplotlib
 ```
