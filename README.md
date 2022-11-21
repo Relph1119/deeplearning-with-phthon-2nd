@@ -1,17 +1,13 @@
 # 《Python深度学习（第2版）》代码及笔记
-&emsp;&emsp;Francois Chollet的《Python深度学习（第2版）》介绍了用Python和Keras进行深度学习的探索实践，涉及计算机视觉、自然语言处理、生成式模型等应用。书中包含30多个代码示例，步骤讲解详细透彻。  
+&emsp;&emsp;Francois Chollet的《Python深度学习（第2版）》介绍了用Python和Keras进行深度学习的探索实践，解决从计算机视觉到自然语言处理等现实世界的诸多问题，包括图像分类、图像分割、时间序列预测、文本分类、机器翻译、文本生成等应用。书中包含30多个代码示例，逐步讲解各类深度学习场景的解决方法与步骤。  
 
-## 使用说明
-1. 关于本笔记中的代码，本书中的源码是基于keras的，但是后端用的是tensorflow1.X的引擎，所以在tensorflow2上面会有很多报错，比如第8章的代码中，就有很多Tensorflow的广播方法报错。  
-2. 本笔记中的有些代码采用了TensorFlow2重写（代码目录：tensorflow_V2_src），主要还是动态图的问题，导致有些代码重写难度大。
-3. 关于python包的版本问题，请详见requirements.txt文件，笔者采用的tensorflow-gpu==2.0.0，可以使用cpu版本，但是运行会特别慢。
-4. 相关数据集见百度网盘的下载地址：链接：https://pan.baidu.com/s/1XdkibXpL-UNG0dXk1w5fNw 提取码：u8pn
-5. keras模型与数据下载地址：链接：https://pan.baidu.com/s/1Rt6KYWUAQ8MWKY9UVVDtmQ 提取码：wedp  
-6. 由于笔者的电脑配置不行，推荐大家租用GPU服务器来运行示例代码，租用方式链接：https://mp.weixin.qq.com/s?__biz=MzU0NjczNTg2NQ==&mid=2247486813&idx=2&sn=93e72cdf73675df69bcbe32de057f6dc&chksm=fb585ecbcc2fd7ddf3858cff26be550e37b578fb522446e7fcf1b71f2f0788231f730cc9f03c&token=1693266535&lang=zh_CN#rd
+原书项目代码：https://github.com/fchollet/deep-learning-with-python-notebooks
 
 ## 安装环境
 
-Python版本：Windows Python 3.8.10
+1. 基础环境
+- Python版本：Windows Python 3.8.10
+- [CUDA安装包下载地址](链接：https://pan.baidu.com/s/1rlX8ErIYYY8F_rFdEe5IgA?pwd=iwa5)
 
 1. 安装CUDA
 - 安装cuda_11.8.0_522.06_windows.exe
@@ -47,3 +43,5 @@ pip install notebook jupyter_nbextensions_configurator
 ```shell
 pip install matplotlib
 ```
+
+## 总结
