@@ -44,4 +44,8 @@ pip install notebook jupyter_nbextensions_configurator
 pip install matplotlib
 ```
 
+6. 安装pydot和graphviz
+```shell
+pip install pydot graphviz
+```
 ## 总结
