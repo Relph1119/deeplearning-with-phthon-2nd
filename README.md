@@ -17,8 +17,12 @@
 SET PATH=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\extras\CUPTI\lib64;%PATH%
 SET PATH=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include;%PATH%
 SET PATH=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\lib\x64;%PATH%
-SET PATH=C:\tools\cuda\bin;%PATH%
 ```
+- 解压zlib123dllx64.zip包，将相关路径添加到PATH中
+```shell
+SET PATH=C:\Program Files\NVIDIA GPU Computing Toolkit\zlib123dllx64\dll_x64;%PATH%
+```
+以上安装步骤可参考[《cuDNN安装指南》](https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html#prerequisites-windows)
 
 3. 安装GPU版本的Tensorflow
 
@@ -48,4 +52,12 @@ pip install matplotlib
 ```shell
 pip install pydot graphviz
 ```
+
+## 相关数据集
+
+数据集下载地址：
+
+- cats_vs_dogs_small：第8.2节使用，已完成图像复制的猫狗分类数据集，包含训练目录、验证目录和测试目录
+- 
+
 ## 总结
