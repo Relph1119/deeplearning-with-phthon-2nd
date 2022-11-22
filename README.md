@@ -61,3 +61,5 @@ pip install pydot graphviz
 - 
 
 ## 总结
+
+1. 如果本地显存低于12G，建议从第9章开始，使用Google Colaboratory进行书中的实验
