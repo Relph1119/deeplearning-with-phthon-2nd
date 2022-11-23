@@ -58,7 +58,7 @@ pip install pydot graphviz
 数据集下载地址：
 
 - cats_vs_dogs_small：第8.2节使用，已完成图像复制的猫狗分类数据集，包含训练目录、验证目录和测试目录
-- 
+- pets：第9.2节使用，Oxford-IIIT宠物数据集
 
 ## 总结
 
