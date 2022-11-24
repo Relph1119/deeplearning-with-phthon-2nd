@@ -60,10 +60,16 @@ pip install scipy
 
 ## 相关数据集
 
-数据集下载地址：
+使用说明：下载数据集，将其解压到`data`目录下即可。
+
+数据集下载地址：链接：https://pan.baidu.com/s/1hu8YFaqfDTMuSJBJtK-csA?pwd=eucs
 
 - cats_vs_dogs_small：第8.2节使用，已完成图像复制的猫狗分类数据集，包含训练目录、验证目录和测试目录
 - pets：第9.2节使用，Oxford-IIIT宠物数据集
+- celeba_gan：第12.5节使用，大规模名人脸部属性数据集
+- spa-eng：第11.5节使用，英语到西班牙语的翻译数据集
+- aclImdb：第11.3节、第12.1节使用，IMDB影评数据集
+- jena_climate_2009_2016.csv：第10.2节使用，耶拿天气时间序列数据集
 
 ## 总结
 
