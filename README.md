@@ -63,3 +63,9 @@ pip install pydot graphviz
 ## 总结
 
 1. 如果本地显存低于12G，建议从第9章开始，使用Google Colaboratory进行书中的实验
+2. CUDNN具有专门加速LSTM和GRU层的功能，这些GRU/LSTM层只有在满足特定标准时才能加速，否则训练会非常慢（第10.4.2节），条件如下：
+    - activation为tanh
+    - recurrent_activation为sigmoid
+    - recurrent_dropout为0
+    - unroll为False
+    - use_bias为True
