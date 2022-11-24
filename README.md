@@ -31,7 +31,7 @@ SET PATH=C:\Program Files\NVIDIA GPU Computing Toolkit\zlib123dllx64\dll_x64;%PA
 pip install tensorflow-gpu
 ```
 
-- 测试环境
+- 验证环境是否安装正常
 ```python
 import tensorflow as tf
 
@@ -53,6 +53,11 @@ pip install matplotlib
 pip install pydot graphviz
 ```
 
+7. 安装scipy
+```shell
+pip install scipy
+```
+
 ## 相关数据集
 
 数据集下载地址：
@@ -69,3 +74,4 @@ pip install pydot graphviz
     - recurrent_dropout为0
     - unroll为False
     - use_bias为True
+3. 由于GAN网络训练耗费的时间很长，笔者没有运行第12.5节的实验
